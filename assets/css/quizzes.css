@@ -1,0 +1,21 @@
+/*--------Padrão--------*/
+main a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10rem;
+	text-decoration: none;
+	color: #000000;
+}
+
+/*--------Corpo--------*/
+.start {
+	font-size: 3rem;
+	text-decoration: none;
+}
+
+.fa.fa-play{
+	font-size: 2.4rem;
+	margin-right: 1rem;
+	text-decoration: none;
+}

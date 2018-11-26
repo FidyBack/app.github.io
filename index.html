@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<title>Aplicativo - FarmLog</title>
+		<!-- Fontes -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<!-- Links -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/geral.css">
+		<script src="assets/sidenav.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width = device-width, initial-scale=1">
+	</head>
+	
+	<body>
+		<header>
+			<div class="hamburger_icon" onclick="openNav()">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+			<div class='logo'>
+				<img src="assets/logo.png" alt="logo">
+			</div>
+			<a href="perfil.html" class="login">
+				<i class="fa fa-user-circle"></i>
+				<h1>SEU NOME</h1>
+			</a>
+		</header>
+
+		<nav id="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="conteudo">
+				<a href="perfil.html">Perfil</a>
+				<a href="quizzes.html">Quizzes</a>
+				<a href="remedios.html">Remédios</a>
+			</div>
+		</nav>
+
+		<main>
+			<div class="pesquisa">
+				<i class="fa fa-camera"></i>
+				<a href="remedios.html">Pesquise o Remédio</a>
+			</div>
+		</main>
+	</body>
+</html>

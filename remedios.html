@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Aplicativo - FarmLog</title>
+		<!-- Fontes -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<!-- Links -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/remedios.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/geral.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="utf-8">
+		<script src="assets/delnav.js"></script>
+		<script src="assets/sidenav.js"></script>
+		<meta name="viewport" content="width = device-width, initial-scale=1">
+	</head>
+	
+	<body>
+		<header>
+			<div class="hamburger_icon" onclick="openNav()">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+			<a href="index.html" class='logo'>
+				<img src="assets/logo.png" alt="Logo do App">
+			</a>
+			<a href="perfil.html" class="login">
+				<i class="fa fa-user-circle"></i>
+				<h1>SEU NOME</h1>
+			</a>
+		</header>
+
+		<nav id="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="conteudo">
+				<a href="perfil.html">Perfil</a>
+				<a href="quizzes.html">Quizzes</a>
+				<a href="remedios.html">Remédios</a>
+			</div>
+		</nav>
+
+		<main>
+			<input type="text" id="pesquisa" onkeyup="myFunction()" placeholder="Remédio..">
+			<ul id="menu_pesquisa">
+				<li><a href="breve.html">Dainitre</a></li>
+				<li><a href="breve.html">Factive</a></li>
+				<li><a href="breve.html">Gabapentina</a></li>
+				<li><a href="breve.html">Halo</a></li>
+				<li><a href="breve.html">Ibandronato de Sódio</a></li>
+				<li><a href="breve.html">Kaloba</a></li>
+				<li><a href="breve.html">Labopril</a></li>
+			</ul>
+		</main>
+	</body>
+</html>

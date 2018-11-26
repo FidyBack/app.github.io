@@ -1,0 +1,29 @@
+/*--------Corpo--------*/
+
+#pesquisa {
+	width: 18.4rem;
+	padding: 0.8rem 1.4rem 0.8rem 2.5rem;
+	border: 0.1rem solid #CDC9C9;
+	border-radius: 0.25rem;
+	font-size: 1rem;
+	background-image: url('../searchicon.png');
+	border-color: #F0F0F0;
+	background-position: 0.1rem 0.2rem; 
+	background-size: 2rem;
+	background-repeat: no-repeat;
+}
+
+#menu_pesquisa {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#menu_pesquisa li a {
+	background-color: #F5F5F5;
+	padding: 1rem;
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: #000000;
+	display: block;
+}

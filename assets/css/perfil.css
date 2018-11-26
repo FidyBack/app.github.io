@@ -1,0 +1,26 @@
+/*--------Padrão--------*/
+
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*--------Corpo--------*/
+.profile{
+	margin: 2rem 0;
+	text-align: center;
+}
+
+.profile i{
+	font-size: 10rem;
+}
+
+.profile h1{
+	font-size: 1.5rem;
+}
+
+.pontuation{
+	text-align: center;
+	font-size: 1.7rem;
+}
