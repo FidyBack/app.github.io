@@ -1,6 +1,11 @@
-main{
-	display: block;
+main h1{
 	margin: 35vh 0 0 0;
 	font-size: 3rem;
 	text-align: center;
+}
+
+main p{
+	text-align: center;
+	margin-top: 2rem;
+	font-size: 1.4rem; 
 }

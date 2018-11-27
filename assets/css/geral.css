@@ -1,5 +1,13 @@
 /*--------Padrão--------*/
 
+html {
+	background-color: #FFFFFF;
+}
+
+iframe {
+	background-color: #FFFFFF;
+}
+
 h1, h2, h3, a{
 	font-family: Roboto, 'Lato', sans-serif;
 	font-weight: bold;
@@ -49,10 +57,9 @@ header{
 
 .conteudo{
 	position: relative;
-	top: 25%;
+	top: 20%;
 	width: 100%;
 	text-align: center;
-	margin-top: 2rem;
 }
 
 .conteudo a{
