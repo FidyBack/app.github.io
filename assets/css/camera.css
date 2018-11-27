@@ -1,0 +1,22 @@
+.button {
+	margin-top: 2rem;
+	background-color: #2196F3;
+	border: none;
+	color: white;
+	padding: 1rem 2rem;
+	text-align: center;
+	font-size: 2rem;
+	font-family: Roboto;
+	font-weight: bold;
+}
+
+main img{
+	height: 100%;
+	width: 100%;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
